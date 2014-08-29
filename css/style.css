@@ -1,43 +1,13 @@
-/*
-Syntax error: Invalid mixin "======".
-        on line 5 of sass/style.sass
+* {
+  padding: 0;
+  margin: 0; }
 
-1: *
-2:   padding: 0
-3: <<<<<<< HEAD
-4:   margin: 0
-5: =======
-6:   margin: 0
-7: #warning
-8:   width: 300px
-9:   margin: 0 auto
-10:   border: 1px solid #000
-
-Backtrace:
-sass/style.sass:5
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:840:in `parse_mixin_definition'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:570:in `parse_line'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:471:in `build_tree'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:490:in `block in append_children'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:489:in `each'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:489:in `append_children'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:345:in `_to_tree'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:283:in `block in watch'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/home/set/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid mixin \"======\".\A         on line 5 of sass/style.sass\A \A 1: *\A 2:   padding: 0\A 3: <<<<<<< HEAD\A 4:   margin: 0\A 5: =======\A 6:   margin: 0\A 7: #warning\A 8:   width: 300px\A 9:   margin: 0 auto\A 10:   border: 1px solid #000"; }
+#warning {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 200px;
+  line-height: 25px;
+  font-size: 20px; }
