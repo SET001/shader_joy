@@ -1,6 +1,6 @@
 == README
 
-Playing with webGL shaders om ThreeJS
+Playing with WebGL shaders on ThreeJS.
 
 See it in action - http://set001.github.io/shader_joy/
 
