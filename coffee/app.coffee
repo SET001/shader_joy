@@ -5,6 +5,10 @@ class window.App
     @renderer.setSize window.innerWidth, window.innerHeight
     @renderer.shadowMapEnabled = yes
     document.body.appendChild @renderer.domElement
+<<<<<<< HEAD
+=======
+    document.getElementById('warning').remove()
+>>>>>>> gh-pages
 
     @camera = new THREE.PerspectiveCamera 45, window.innerWidth / window.innerHeight, 0.1, 1000
 
@@ -71,7 +75,11 @@ class window.App
     @stats.domElement.style.left = '0px'
     @stats.domElement.style.top = '0px'
     console.log @stats.domElement
+<<<<<<< HEAD
     document.getElementById('stats').innerHTML = @stats.domElement.innerHTML
+=======
+    document.getElementById('stats').appendChild @stats.domElement
+>>>>>>> gh-pages
 
 
   render: =>

@@ -12,6 +12,10 @@
       this.renderer.setSize(window.innerWidth, window.innerHeight);
       this.renderer.shadowMapEnabled = true;
       document.body.appendChild(this.renderer.domElement);
+<<<<<<< HEAD
+=======
+      document.getElementById('warning').remove();
+>>>>>>> gh-pages
       this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
       this.camera.position.x = -2;
       this.camera.position.y = 0;
@@ -79,7 +83,11 @@
       this.stats.domElement.style.left = '0px';
       this.stats.domElement.style.top = '0px';
       console.log(this.stats.domElement);
+<<<<<<< HEAD
       return document.getElementById('stats').innerHTML = this.stats.domElement.innerHTML;
+=======
+      return document.getElementById('stats').appendChild(this.stats.domElement);
+>>>>>>> gh-pages
     };
 
     App.prototype.render = function() {
